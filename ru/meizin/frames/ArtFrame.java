@@ -15,7 +15,7 @@ public class ArtFrame extends JFrame {
     }
 
     public void paint(Graphics g) {
-        drawingArt.paint(g);
+        drawingArt.paintMyCircle(g);
     }
 
 }
