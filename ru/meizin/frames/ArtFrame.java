@@ -6,16 +6,16 @@ import ru.meizin.drawings.Drawing;
 public class ArtFrame extends JFrame {
     private static final long serialVersionUID = 1L;
 
-    Drawing drawing;
+    Drawing drawingArt;
 
-    public ArtFrame(Drawing drawing) {
-        this.drawing = drawing;
+    public ArtFrame(Drawing drw) {
+        this.drawingArt = drw;
         setTitle("Произведение абстрактного искусства");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public void paint(Graphics g) {
-        drawing.paint(g);
+        drawingArt.paint(g);
     }
 
 }
