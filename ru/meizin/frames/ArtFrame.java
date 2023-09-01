@@ -12,10 +12,11 @@ public class ArtFrame extends JFrame {
         this.drawingArt = drw;
         setTitle("Произведение абстрактного искусства");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(800, 400);
+        setVisible(true);
     }
 
-    public void paint(Graphics g) {
-        drawingArt.paintMyCircle(g);
+    public void paint(Graphics graph2) {
+        drawingArt.paintMyCircle(graph2);
     }
-
 }
