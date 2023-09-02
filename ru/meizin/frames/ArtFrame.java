@@ -14,9 +14,11 @@ public class ArtFrame extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(800, 400);
         setVisible(true);
+        System.out.println("Отработал конструктор ArtFrame()");
     }
 
-    public void paint(Graphics graph2) {
-        drawingArt.paintMyCircle(graph2);
+    public void paint(Graphics grf) {
+        drawingArt.paintMyCircle(grf);
+        System.out.println("Отработал метод обратного вызова paint()");
     }
 }

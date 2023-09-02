@@ -8,5 +8,6 @@ class ShowFrame {
         //ArtFrame artFrame = new ArtFrame(new Drawing());
         //artFrame.setSize(800, 400);
         //artFrame.setVisible(true);
+        System.out.println("Отработал main()");
     }
 }
