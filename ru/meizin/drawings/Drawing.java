@@ -1,10 +1,9 @@
 package ru.meizin.drawings;
-
 import java.awt.Graphics;
 public class Drawing {
-    public int x1 = 100, y1 = 100, width1 = 140, height1 = 80;
-    public int x2 = 200, y2 = 200, width2 = 140, height2 = 80;
-    public int x3 = 400, y3 = 140, width3 = 80, height3 = 140;
+    protected int x1 = 100, y1 = 100, width1 = 140, height1 = 80;
+    protected int x2 = 200, y2 = 200, width2 = 140, height2 = 80;
+    protected int x3 = 400, y3 = 140, width3 = 80, height3 = 140;
 
     public void paintMyCircle(Graphics graph) {
         graph.drawOval(x1, y1, width1, height1);

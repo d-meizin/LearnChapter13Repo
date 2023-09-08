@@ -8,6 +8,7 @@ public class DrawingWide extends Drawing {
         graph.drawOval(x1, y1, width1, height1);
         graph.drawOval(x2, y2, width2, height2);
         graph.drawOval(x3, y3, width3, height3);
+          System.out.println("Отработал метод paintMyCircleWide()");
     }
 
 }
